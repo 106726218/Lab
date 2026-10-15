@@ -1,0 +1,226 @@
+/*
+filename: dl.css
+author: Pham Nguyen Gia Bao
+created: 15/10/2026
+last modified: 8/10/2026
+description: this css file is linked to the lab05.html
+*/
+/* styling definition list */
+dl {
+    border: 3px double #ccc;
+    padding: 0.5em;
+  }
+  dt {
+    clear: left;
+	  float: left;
+    width: 40%;
+	  text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+  dt::after {
+    content: " :"; 
+  }
+
+  dd {
+    width: 55%;
+	  margin-left: 42%;
+  }
+
+* {font-family: calibri, sans-serif; }
+
+h1 { 
+    color: purple;  
+    font-weight: bold;
+    text-align: center; 
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4A4A4A;
+    background-color: #FFFFFF;
+    border: 3px solid #B0B0B0;
+    padding: 4px 10px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+hr {
+    
+    height: 3px;
+    background-color: black;    
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    background-color:aqua;
+}
+
+h2 {
+    color:#008080;
+}
+
+aside {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color:#4A4A4A; 
+}
+
+.highlight-h3 {
+    color: red;
+}
+
+.special {
+    color: #D97724;
+    font-weight: bold;
+}
+
+table {
+    border-collapse:collapse; 
+    margin: 15px 0;
+    width: auto;
+    min-width: 300px;
+}
+
+th, td {
+    border: 1px solid #A6A6A6;
+    padding: 6px 12px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #F2F2F2;
+    font-weight: bold;
+}
+
+tbody th {
+    text-align: left;
+    background-color: #F9F9F9;
+}
+
+tfoot td, tfoot th {
+    font-weight: bold;
+    background-color: #F2F2F2;
+}
+
+a {
+    color: black;
+}
+
+a.email:hover {
+    color: yellow;
+}
+
+#images {
+    text-align: center;
+}
+
+aside:hover {
+    display: block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+}
+aside {
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid purple;
+    border-right: 5px solid purple;
+    margin: 1em;
+    padding: 1em;
+    background-image: url(fade.jpg);
+    border-radius: 10px;
+}
+
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+}
+
+footer {
+    border-top: 4px double darkgray;
+    clear: both;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+table {
+    margin: auto;
+}
+
+#lists {
+  order: 1;
+}
+
+#tables {
+    float: right;
+    order: 2;
+}
+
+#hyperlinks {
+    clear: both;
+    order: 3;
+}
+
+#images {
+    float: right;
+    order: 4;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+#lists, #tables, #images, #hyperlinks {
+    text-align: center;
+    width: 50%;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+article {
+    min-width: 30em;
+}
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
