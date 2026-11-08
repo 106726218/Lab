@@ -1,0 +1,100 @@
+/*
+filename: styles.css
+author: Pham Nguyen Gia Bao
+created: 8/10/2026
+last modified: 8/10/2026
+description: this css file is linked to the lab04.html
+*/
+* { font-family: calibri, sans-serif; }
+h1 { 
+    color: purple;  
+    font-weight: bold; 
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4A4A4A;
+    background-color: #FFFFFF;
+    border: 3px solid #B0B0B0;
+    padding: 4px 10px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+hr {
+    
+    height: 3px;
+    background-color: black;    
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    background-color:aqua;
+}
+
+h2 {
+    color:#008080;
+}
+
+aside {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color:#4A4A4A; 
+}
+
+.highlight-h3 {
+    color: red;
+}
+
+.special {
+    color: #D97724;
+    font-weight: bold;
+}
+
+table {
+    border-collapse:collapse; 
+    margin: 15px 0;
+    width: auto;
+    min-width: 300px;
+}
+
+th, td {
+    border: 1px solid #A6A6A6;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #F2F2F2;
+    font-weight: bold;
+}
+
+tbody th {
+    text-align: left;
+    background-color: #F9F9F9;
+}
+
+tfoot td, tfoot th {
+    font-weight: bold;
+    background-color: #F2F2F2;
+}
+
+a {
+    color: black;
+}
+
+a.email:hover {
+    color: yellow;
+}
+
+#images {
+    text-align: center;
+}
+
+
